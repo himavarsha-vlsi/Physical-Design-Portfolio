@@ -6,7 +6,7 @@ mux dut (.i(i), .s(s), .y(y));
 initial begin
 s = 2'b00;
 repeat (5) begin
-i = $random(); 
+i = $random();
 s = s + 1;
 #10;
 end
